@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    line-height: 40px;
+}
+#contactIcon{
+    font-size: 70px;
+    color:grey;
+}
+.txt{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+form{
+    margin-top: 15px;
+}
+input, button{
+    border: none;
+    border-bottom: 2px solid blue;
+    padding: 8px 10px ;
+}
+input[type=email],[type=password],[type=button]{
+    width: 250px;   
+}
+[type=button]{
+    border:none;
+    background-image: linear-gradient(to right, lightblue , blue);
+}
+input[type=email]::placeholder,[type=password]::placeholder,
+[type=submit]{
+    color: black;
+}
+.remember{
+    font-size: 10px;
+}
+.remember a{
+    float: right;
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+/* Hover */
+#contactIcon:hover, .txt:hover{
+    color: blue;
+}
+input:hover, button:hover{
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+    border-radius: 4px;
+}
+.remember a:hover{
+    text-decoration: underline;
+}

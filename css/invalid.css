@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.invalid{
+    margin: 220px 400px ;
+}
+.invalid p{
+    font-size: 50px;
+    font-weight: 800;
+    padding: 30px 0;
+}
+.back{
+    margin: 120px 0 0 140px;
+}
+.back a{
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(212, 14, 238);
+    border: 2px solid rgb(212, 14, 238);
+    border-radius: 15px;
+    padding: 12px 18px;
+}
+.back a:hover{
+    background-color: rgb(212, 14, 238);
+    color: white;
+    font-weight: bold;
+}
+/* Lanscape Tablets */
+@media only screen and (max-width: 1024px) {
+    .invalid{
+        margin: 220px 150px ;
+    }
+}
+/* small iPhone 678 */
+@media only screen and (max-width: 378px) {
+    .invalid{
+        margin: 1500px 20px ;
+    }
+    .invalid p{
+        font-size: 28px;
+        font-weight: 600;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .back{
+        margin: 120px 0 0 60px;
+    }
+}
